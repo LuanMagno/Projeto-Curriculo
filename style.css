@@ -1,0 +1,109 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #025959;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+body {
+    background-color: #eafdfd;
+}
+nav ul {
+    display: flex;
+    padding: 10px;
+}
+
+nav li {
+    display:inline;
+    margin-right: 5px;
+}
+
+nav li img {
+    width: 50px
+}
+
+#Conteudo {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 65px;
+    padding-right: 65px;
+
+}
+
+#Conteudo section {
+    padding: 30px;
+}
+
+#Cabeçalho {
+    padding: 13px;
+}
+
+#Cabeçalho h1 {
+    font-size: 30px;
+    color: white;
+}
+
+#Cabeçalho h4 {
+    font-size: 20px;
+    color: white;
+}
+
+.Sobre {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    padding-top: 35px;
+}
+
+.Sobre div {
+    padding: 10px;
+    width: 100%;
+    padding-left: 15px;
+}
+
+.Sobre div h3,#Conteudo section h3,#Contato h3 {
+    justify-content: center;
+    padding-bottom: 15px;
+    font-size: 28px;
+    text-align: center;
+    color: #025959;
+}
+
+.Sobre div p,#Conteudo section li {
+    font-size: 20px;
+    color: #8a0000;
+}
+
+.Sobre img {
+    width: 650px;
+    border-radius: 20px;
+}
+
+#Contato {
+    display: flex;
+}
+
+#Contato {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+#Contato label {
+    color: #8a0000;
+    font-size: 20px;
+}
+
+#Contato textarea {
+    resize: none;
+}
